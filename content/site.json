@@ -1,0 +1,201 @@
+{
+  "nome": "Tipografia Zappalà",
+  "ragioneSociale": "Grafiche Zappalà S.n.c. di Zappalà Angelo e Zappalà Vito",
+  "piva": "00870620879",
+  "url": "https://www.tipografiazappala.it",
+  "citta": "Belpasso",
+  "provincia": "CT",
+  "indirizzo": {
+    "via": "Via 3° Retta Levante 136",
+    "cap": "95032",
+    "citta": "Belpasso",
+    "provincia": "CT",
+    "paese": "IT"
+  },
+  "telefono": "+39 095 791 2472",
+  "telefonoHref": "tel:+390957912472",
+  "email": "grafiche.zappala@gmail.com",
+  "facebook": "https://www.facebook.com/1479014675727853",
+  "mappaUrl": "https://www.google.com/maps/search/?api=1&query=Via+3%C2%B0+Retta+Levante+136+95032+Belpasso",
+  "orari": [
+    {
+      "giorni": "Lunedì – Venerdì",
+      "ore": "08:00–13:00 · 14:30–19:00"
+    },
+    {
+      "giorni": "Sabato",
+      "ore": "08:00–12:00"
+    },
+    {
+      "giorni": "Domenica",
+      "ore": "Chiuso"
+    }
+  ],
+  "orariSchema": [
+    {
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "08:00",
+      "closes": "13:00"
+    },
+    {
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "14:30",
+      "closes": "19:00"
+    },
+    {
+      "days": [
+        "Saturday"
+      ],
+      "opens": "08:00",
+      "closes": "12:00"
+    }
+  ],
+  "esperienza": "trent'anni di esperienza",
+  "storia": "La Tipografia Zappalà si occupa di pubblicità sotto ogni forma: design, web, advertising, stampa. Esegue al suo interno tutte le fasi: dalla progettazione delle campagne pubblicitarie alla stampa e alla finitura.",
+  "persone": [
+    {
+      "nome": "Angelo Zappalà",
+      "ruolo": "Socio titolare"
+    },
+    {
+      "nome": "Vito Zappalà",
+      "ruolo": "Socio titolare"
+    }
+  ],
+  "servizi": [
+    {
+      "slug": "stampa",
+      "numero": "01",
+      "titolo": "Stampa e finitura",
+      "testo": "Stampa e finitura fatte in laboratorio a Belpasso, senza passaggi esterni.",
+      "prodotti": [
+        "volantini",
+        "depliant",
+        "manifesti",
+        "poster-6x3",
+        "cataloghi",
+        "brochure",
+        "libri",
+        "riviste",
+        "calendari",
+        "stampe-digitali"
+      ]
+    },
+    {
+      "slug": "timbri",
+      "numero": "02",
+      "titolo": "Timbri",
+      "testo": "Timbri per uffici, negozi e professionisti.",
+      "prodotti": [
+        "timbri"
+      ]
+    },
+    {
+      "slug": "grafica",
+      "numero": "03",
+      "titolo": "Grafica e design",
+      "testo": "Progettiamo il file prima di stamparlo: impaginazione, marchi, materiali coordinati.",
+      "prodotti": []
+    },
+    {
+      "slug": "pubblicita",
+      "numero": "04",
+      "titolo": "Pubblicità e web",
+      "testo": "Campagne pubblicitarie, dal manifesto 6×3 alla presenza online.",
+      "prodotti": [
+        "poster-6x3"
+      ]
+    }
+  ],
+  "processo": [
+    {
+      "n": "01",
+      "titolo": "File",
+      "testo": "Ci mandi il PDF o lo progettiamo noi."
+    },
+    {
+      "n": "02",
+      "titolo": "Verifica e bozza",
+      "testo": "Controlliamo abbondanze, colori e risoluzione. Ti mandiamo la bozza."
+    },
+    {
+      "n": "03",
+      "titolo": "Approvazione",
+      "testo": "Confermi la bozza. Senza il tuo ok non si stampa."
+    },
+    {
+      "n": "04",
+      "titolo": "Stampa",
+      "testo": "Stampa e finitura in laboratorio."
+    },
+    {
+      "n": "05",
+      "titolo": "Ritiro o consegna",
+      "testo": "Ritiri in laboratorio in Via 3° Retta Levante 136, Belpasso, oppure concordiamo la consegna in zona."
+    }
+  ],
+  "preparazioneFile": [
+    {
+      "voce": "Abbondanza",
+      "valore": "3 mm per lato"
+    },
+    {
+      "voce": "Colore",
+      "valore": "CMYK"
+    },
+    {
+      "voce": "Risoluzione",
+      "valore": "300 dpi"
+    },
+    {
+      "voce": "Font",
+      "valore": "Vettorializzati o incorporati"
+    },
+    {
+      "voce": "Formato",
+      "valore": "PDF/X"
+    }
+  ],
+  "campionario": [
+    {
+      "superficie": "Patinata opaca",
+      "grammatura": "115–350 g/m²",
+      "disponibilita": "Sempre disponibile",
+      "uso": "Volantini, brochure, cataloghi"
+    },
+    {
+      "superficie": "Patinata lucida",
+      "grammatura": "115–350 g/m²",
+      "disponibilita": "Sempre disponibile",
+      "uso": "Volantini, manifesti, calendari"
+    },
+    {
+      "superficie": "Uso mano",
+      "grammatura": "80–170 g/m²",
+      "disponibilita": "Sempre disponibile",
+      "uso": "Carta intestata, libri, riviste"
+    },
+    {
+      "superficie": "Materica",
+      "grammatura": "250–350 g/m²",
+      "disponibilita": "Su richiesta",
+      "uso": "Biglietti da visita, inviti, partecipazioni"
+    }
+  ],
+  "coordinate": {
+    "lat": 37.5854,
+    "lon": 14.9794
+  }
+}

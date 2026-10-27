@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "volantini", "nome": "Volantini", "uso": "Promozioni, eventi, aperture: da distribuire a mano o lasciare al banco.",
+    "formati": ["A6", "A5", "A4", "DL 10×21 cm"],
+    "carte": "Patinata opaca o lucida", "grammature": "115–170 g/m²", "finiture": "Fronte o fronte/retro, plastificazione su richiesta",
+    "tiratura": "Da 100 copie", "tempi": "24–48 ore lavorative"
+  },
+  {
+    "slug": "depliant", "nome": "Depliant", "uso": "Listini, menù, presentazioni piegate in due o tre ante.",
+    "formati": ["A4 a 2 ante", "A4 a 3 ante", "A3 a 2 ante"],
+    "carte": "Patinata opaca o lucida", "grammature": "135–200 g/m²", "finiture": "Cordonatura e piega, plastificazione su richiesta",
+    "tiratura": "Da 100 copie", "tempi": "2–3 giorni lavorativi"
+  },
+  {
+    "slug": "manifesti", "nome": "Manifesti", "uso": "Affissioni, vetrine, bacheche, manifesti elettorali e funebri.",
+    "formati": ["A3", "50×70 cm", "70×100 cm", "100×140 cm"],
+    "carte": "Patinata lucida, carta blue back per affissione", "grammature": "115–170 g/m²", "finiture": "Solo fronte",
+    "tiratura": "Da 10 copie", "tempi": "24–48 ore lavorative"
+  },
+  {
+    "slug": "poster-6x3", "nome": "Poster 6×3", "uso": "Cartellonistica stradale nel formato 6×3 metri, stampata in fogli da montare.",
+    "formati": ["600×300 cm", "400×300 cm", "300×200 cm"],
+    "carte": "Carta blue back da affissione", "grammature": "115–135 g/m²", "finiture": "Divisa in fogli numerati per il montaggio",
+    "tiratura": "Da 1 copia", "tempi": "3–5 giorni lavorativi"
+  },
+  {
+    "slug": "cataloghi", "nome": "Cataloghi", "uso": "Prodotti e listini rilegati in più pagine.",
+    "formati": ["A4", "A5", "21×21 cm"],
+    "carte": "Patinata opaca o lucida", "grammature": "Interno 115–170 g/m², copertina 250–350 g/m²", "finiture": "Punto metallico o brossura fresata, copertina plastificata",
+    "tiratura": "Da 50 copie", "tempi": "5–7 giorni lavorativi"
+  },
+  {
+    "slug": "brochure", "nome": "Brochure", "uso": "Presentazione dell'azienda o di un singolo servizio in poche pagine.",
+    "formati": ["A4", "A5", "21×21 cm"],
+    "carte": "Patinata opaca", "grammature": "Interno 135–170 g/m², copertina 250–300 g/m²", "finiture": "Punto metallico, copertina plastificata opaca o lucida",
+    "tiratura": "Da 50 copie", "tempi": "3–5 giorni lavorativi"
+  },
+  {
+    "slug": "libri", "nome": "Libri", "uso": "Narrativa, saggi e pubblicazioni a più pagine.",
+    "formati": ["A5", "15×21 cm", "17×24 cm"],
+    "carte": "Uso mano o avoriata per l'interno, patinata per la copertina", "grammature": "Interno 80–100 g/m², copertina 300 g/m²", "finiture": "Brossura fresata, copertina plastificata, alette su richiesta",
+    "tiratura": "Da 50 copie", "tempi": "7–10 giorni lavorativi"
+  },
+  {
+    "slug": "riviste", "nome": "Riviste", "uso": "Periodici, notiziari e giornalini a più pagine.",
+    "formati": ["A4", "23×30 cm"],
+    "carte": "Patinata lucida o opaca", "grammature": "Interno 90–115 g/m², copertina 170–250 g/m²", "finiture": "Punto metallico o brossura",
+    "tiratura": "Da 100 copie", "tempi": "5–7 giorni lavorativi"
+  },
+  {
+    "slug": "calendari", "nome": "Calendari", "uso": "Calendari da muro o da tavolo per clienti e fornitori.",
+    "formati": ["A3 da muro", "A4 da muro", "Da tavolo 21×10 cm"],
+    "carte": "Patinata lucida", "grammature": "170–300 g/m²", "finiture": "Spirale metallica con gancio, punto metallico, base da tavolo",
+    "tiratura": "Da 50 copie", "tempi": "5–7 giorni lavorativi"
+  },
+  {
+    "slug": "timbri", "nome": "Timbri", "uso": "Timbri autoinchiostranti e in legno per uffici, negozi e professionisti.",
+    "formati": ["38×14 mm", "47×18 mm", "58×22 mm", "Tondo Ø 40 mm"],
+    "carte": "Non applicabile", "grammature": "Non applicabile", "finiture": "Autoinchiostrante o in legno, inchiostro nero, blu o rosso",
+    "tiratura": "Da 1 pezzo", "tempi": "24 ore lavorative"
+  },
+  {
+    "slug": "stampe-digitali", "nome": "Stampe digitali", "uso": "Biglietti da visita, inviti, piccole tirature e stampe rapide.",
+    "formati": ["85×55 mm", "A6", "A5", "A4", "A3"],
+    "carte": "Patinata, uso mano o materica", "grammature": "100–350 g/m²", "finiture": "Plastificazione, angoli arrotondati, taglio al vivo",
+    "tiratura": "Da 1 copia", "tempi": "In giornata o entro 24 ore"
+  }
+]
