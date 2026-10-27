@@ -1,0 +1,171 @@
+@import "tailwindcss";
+
+/* Tipografia Zappalà: design system. Palette Tailwind azzerata: esistono solo i colori qui sotto. */
+
+@theme {
+  --color-*: initial;
+  --font-*: initial;
+  --radius-*: initial;
+  --shadow-*: initial;
+
+  --radius-md: 6px;
+  --shadow-header: 0 1px 2px rgb(18 38 26 / 0.06), 0 4px 12px rgb(18 38 26 / 0.04);
+
+  --text-h1: clamp(2.5rem, 6vw, 4.75rem);
+  --text-h1--line-height: 1.02;
+  --text-h2: clamp(1.75rem, 3.2vw, 2.6rem);
+  --text-h2--line-height: 1.1;
+  --text-h3: 1.328rem;
+  --text-h3--line-height: 1.2;
+  --text-lead: 1.25rem;
+  --text-lead--line-height: 1.5;
+  --text-label: 0.8125rem;
+  --text-label--line-height: 1.4;
+}
+
+@theme inline {
+  --color-white: #ffffff;
+  --color-brand: var(--brand);
+  --color-brand-strong: var(--brand-strong);
+  --color-brand-soft: var(--brand-soft);
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-border: var(--border);
+  --color-border-control: var(--border-control);
+  --color-footer: var(--footer);
+  --color-cmyk-c: var(--cmyk-c);
+  --color-cmyk-m: var(--cmyk-m);
+  --color-cmyk-y: var(--cmyk-y);
+
+  --font-sans: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, Menlo, Consolas, monospace;
+}
+
+:root {
+  color-scheme: light;
+  --brand: #0a9345;
+  --brand-strong: #08713a;
+  --brand-soft: #e7f4ec;
+  --bg: #fbfbf9;
+  --surface: #ffffff;
+  --surface-2: #f2f4f1;
+  --ink: #17211b;
+  --ink-muted: #56615a;
+  --border: #dde3de;
+  --border-control: #7a847e;
+  --footer: #12261a;
+  --cmyk-c: #00a0e3;
+  --cmyk-m: #e5007d;
+  --cmyk-y: #ffed00;
+}
+
+@layer base {
+  html {
+    background: var(--bg);
+    color: var(--ink);
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: 17px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  img,
+  svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+    font-stretch: 75%;
+    text-wrap: balance;
+  }
+
+  h1 {
+    font-size: var(--text-h1);
+    line-height: 1.02;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+
+  h2 {
+    font-size: var(--text-h2);
+    line-height: 1.1;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+  }
+
+  h3 {
+    font-size: var(--text-h3);
+    line-height: 1.2;
+    font-weight: 700;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: var(--brand-strong);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--brand-strong);
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@utility page-wrap {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 16px;
+  @media (min-width: 768px) {
+    padding-inline: 32px;
+  }
+}
+
+@utility label-mono {
+  font-family: var(--font-mono);
+  font-size: var(--text-label);
+  line-height: var(--text-label--line-height);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+@utility skip-link {
+  position: absolute;
+  left: 16px;
+  top: -100px;
+  z-index: 50;
+  padding: 8px 12px;
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  color: var(--ink);
+  &:focus {
+    top: 8px;
+  }
+}

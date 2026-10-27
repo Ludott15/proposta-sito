@@ -1,0 +1,44 @@
+GUIDA ALLA PREPARAZIONE DEL FILE PER LA STAMPA
+Tipografia Zappalà
+
+1. ABBONDANZA
+   Aggiungi 3 mm oltre la misura finale su ogni lato.
+   Dopo il taglio questa parte sparisce e non restano bordi bianchi.
+
+2. COLORE
+   Stampiamo in CMYK.
+   Un file in RGB cambia colore in conversione: convertilo prima tu,
+   oppure chiedici una verifica.
+
+3. RISOLUZIONE
+   Le immagini devono essere a 300 dpi alla dimensione di stampa.
+   Un'immagine scaricata dal web di solito non basta.
+
+4. FONT
+   Converti i testi in tracciati oppure incorpora i font.
+   Così il file si vede uguale su ogni computer.
+
+5. FORMATO
+   Esporta in PDF/X, il formato standard per la stampa.
+
+CONTROLLO RAPIDO PRIMA DI INVIARE
+- Il file ha 3 mm di abbondanza su ogni lato?
+- I colori sono in CMYK?
+- Le immagini sono a 300 dpi alla misura di stampa?
+- I testi sono tracciati o i font sono incorporati?
+- Il file è un PDF/X?
+
+Se hai dubbi, mandaci il file lo stesso: lo controlliamo e ti inviamo una bozza.
+Senza il tuo ok sulla bozza non si stampa.
+
+CONTATTI
+Tipografia Zappalà
+Via 3° Retta Levante 136, 95032 Belpasso (CT)
+Telefono: +39 095 791 2472
+Email: grafiche.zappala@gmail.com
+Facebook: https://www.facebook.com/1479014675727853
+
+ORARI
+Lunedì - Venerdì: 08:00-13:00 e 14:30-19:00
+Sabato: 08:00-12:00
+Domenica: chiuso
