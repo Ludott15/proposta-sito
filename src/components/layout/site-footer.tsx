@@ -32,6 +32,12 @@ export function SiteFooter() {
           <p className="max-w-[32ch] text-[15px] leading-relaxed">
             Stampa e finitura in laboratorio a Belpasso. Grafica e pubblicità.
           </p>
+          <p className="mt-6 flex items-baseline gap-2 text-xl font-bold text-white">
+            <span className="font-mono text-xs font-medium tracking-[0.15em] text-white/60">POWERED BY</span>
+            <span>
+              C<span className="text-cmyk-m">.</span>PINSAI
+            </span>
+          </p>
         </div>
 
         <nav aria-label="Prodotti del footer" className="flex flex-col gap-3 text-[15px]">
